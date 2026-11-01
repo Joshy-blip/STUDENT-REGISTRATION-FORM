@@ -1,0 +1,161 @@
+/* General Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f1f5f9;
+color: #333;
+line-height: 1.6;
+padding: 30px 15px;
+}
+
+/* Header Styling */
+header {
+text-align: center;
+margin-bottom: 25px;
+}
+
+header h1 {
+color: #123b63;
+font-size: 30px;
+margin-bottom: 10px;
+}
+
+header p {
+color: #666;
+font-size: 15px;
+}
+
+hr {
+border: none;
+border-top: 1px solid #ddd;
+margin: 20px 0;
+}
+
+/* Main Container */
+main {
+max-width: 650px;
+margin: 0 auto;
+background-color: #ffffff;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Section Heading */
+section h2 {
+color: #123b63;
+margin-bottom: 25px;
+font-size: 21px;
+}
+
+/* Form Styling */
+form div {
+margin-bottom: 5px;
+}
+
+label {
+display: inline-block;
+font-weight: 600;
+margin-bottom: 6px;
+color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
+outline: none;
+transition: 0.3s;
+}
+
+/* Focus Effect */
+input:focus,
+select:focus {
+border-color: #2563eb;
+box-shadow: 0 0 5px rgba(37, 99, 235, 0.2);
+}
+
+/* Gender Fieldset */
+fieldset {
+border: 1px solid #ccc;
+border-radius: 6px;
+padding: 15px;
+}
+
+legend {
+font-weight: bold;
+color: #444;
+padding: 0 5px;
+}
+
+input[type="radio"] {
+margin-right: 5px;
+accent-color: #2563eb;
+}
+
+fieldset label {
+margin-right: 20px;
+font-weight: normal;
+}
+
+/* Buttons */
+button {
+padding: 12px 20px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: 14px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+button[type="submit"] {
+background-color: #123b63;
+color: white;
+}
+
+button[type="submit"]:hover {
+background-color: #0b2945;
+}
+
+button[type="reset"] {
+background-color: #e5e7eb;
+color: #333;
+margin-left: 8px;
+}
+
+button[type="reset"]:hover {
+background-color: #d1d5db;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+main {
+padding: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+button {
+    width: 100%;
+    margin: 5px 0;
+}
+
+button[type="reset"] {
+    margin-left: 0;
+}
+
+}
